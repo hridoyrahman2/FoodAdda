@@ -216,6 +216,9 @@ textarea{
 .brand{
     text-align: center;
 }
+.brand h1{
+    color: white;
+}
 .brand h1 span{
     color: tomato;
     font-size: 50px;
