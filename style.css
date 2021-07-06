@@ -136,6 +136,27 @@ nav ul li .active{
 } .box img{
     border-radius: 20px;
 }
+.achive{
+    display: flex;
+    width: 80%;
+    box-shadow: 1px 5px 15px rgb(46, 43, 43);
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.achivement{
+   padding: 10px 40px;
+    margin: 40px 50px;
+}
+.achivement h2{
+    text-align: center;
+}
+.achivement p{
+    font-size: 10px;
+    font-weight: 400;
+}
 #contact{
     margin-bottom: 50px;
 }
