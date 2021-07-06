@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-color: lightsalmon
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav .logo p span{
+    color: tomato;
+    font-size: 50px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: tomato;
+}
+nav ul li .active{
+    color:tomato;
+}
+.content{
+    display: flex;
+    background-image: url(./imges/bg.jpg);
+    margin-bottom: 100px;
+}
+.upside h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 10%
+}
+.upside h1 span{
+    color: tomato;
+}
+.upside p{
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.upside{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.upside img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(0deg, rgba(255, 99, 71, 1) 25%, rgba(255, 77, 46, 1) 50%, rgba(255, 56, 20, 1) 75%, rgba(255, 39, 0, 1) 100%);
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 700;
+}
+.middle-side{
+    display: flex;
+}
+.middle-side{
+    background-image: url(./imges/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.middle-img img{
+    width: 50%;
+    margin-left: 30% 
+}
+.middle-margin{
+    margin-right: 20%;
+}
+.bottom{
+    margin-bottom: 100px;
+}
+.bottom h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.bottom h1 span{
+    color: tomato;
+}
+.bottom .white{
+    color: white;
+    padding: 10px 40px;
+}
+.recipe-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.recipe-item img{
+    width: 100%;
+}
+.bottom .recipe-item .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 1px 5px 15px rgb(46, 43, 43);
+    background-color: #fff;
+    border-radius: 10px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+.left{
+    background: url(./imges/mapScreenshot.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.right{
+    padding: 25px 40px;
+}
+.right h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: tomato;
+}
+.right h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height:4px;
+    width: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(0deg, rgba(255, 99, 71, 1) 25%, rgba(255, 77, 46, 1) 50%, rgba(255, 56, 20, 1) 75%, rgba(255, 39, 0, 1) 100%);;
+}
+.field{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0);
+    padding: 0.5rem ;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: tomato;
+}
+textarea{
+    min-height: 150px;
+}
