@@ -134,6 +134,9 @@ nav ul li .active{
     background-color: #fff;
     border-radius: 10px;
 }
+#contact{
+    margin-bottom: 50px;
+}
 .container{
     position: relative;
     width: 100%;
@@ -192,4 +195,36 @@ nav ul li .active{
 }
 textarea{
     min-height: 150px;
+}
+#footer{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .brand{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brand{
+    text-align: center;
+}
+.brand h1 span{
+    color: tomato;
+    font-size: 50px;
+    font-weight: bold;
+}
+.copyright p{
+    text-align: center;
+    color: white;
+}
+.copyright p span{
+    color: tomato;
 }
